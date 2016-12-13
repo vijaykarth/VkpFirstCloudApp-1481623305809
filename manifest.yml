@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: VkpFirstCloudApp
+  host: VkpFirstCloudApp
+  disk_quota: 1024M
+  services:
+  - VkpMongoDb
